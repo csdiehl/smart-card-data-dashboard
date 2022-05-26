@@ -1,5 +1,5 @@
 # smart-card-data-dashboard
-Interactive dashboard for visualising Washington D.C. smart card transit data. Custom built for the agency using React.js
+Interactive dashboard for visualising Washington D.C. smart card transit data. Custom built for the agency using React.js. Still under development and has not been publically released. 
 
 ## Demo
 
