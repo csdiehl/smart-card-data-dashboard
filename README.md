@@ -5,11 +5,10 @@ Interactive dashboard for visualising Washington D.C. smart card transit data. C
 
 This dashboard was custom-built for WMATA to display the data analysis conducted for its Bus Network Redesign, but some components could be adapted to produce similar dashboards for any transit agency or broader use cases.
 
-- React
+- React v7
 - React-leaflet
 - React-vis
 - React-router
-- The front-end UI is built using React v7.
 
 The React-Leaflet package facilitates interactive mapping. A custom reusable map component underlies each page, with additional data layered on depending on the use case. Transit route shapes are provided through requests to the Transit.land REST API, and configured using React hooks to only make new requests when routes change. React-vis provides charting capabilities. For each page, data flows from a single parent component to child components rendering the maps and charts. State updates are managed in a single location in the parent component. 
 
